@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    />
+</TableRow>
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:text="North"
+    />
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/north"
+    android:hint="-90 to +90"
+            android:numeric="decimal|signed"
+    />
+</TableRow>
+
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:text="South"
+    />
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/south"
+    android:hint="-90 to +90"
+                android:numeric="decimal|signed"
+    />
+    
+</TableRow>
+
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:text="East"
+    />
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/east"
+    android:hint="-180 to +180"   
+                android:numeric="decimal|signed"
+    />
+</TableRow>
+
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:text="West"
+    />
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/west"
+    android:hint="-180 to +180"    
+        android:numeric="decimal|signed"
+    />
+</TableRow>
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    />
+</TableRow>
+<TableRow>
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <Button
+    android:id="@+id/btnClick"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="View"
+    android:onClick="GetInfo"
+    />
+        <Button
+    android:id="@+id/btnClear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Reset"
+    />
+</TableRow>
+<TableRow>
+        <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    />
+</TableRow>
+<TableRow>
+            <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+                    <TextView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    />
+    <TextView
+    android:layout_width="150dp"
+    android:id="@+id/final_results"
+    android:layout_height="wrap_content"
+    />   
+</TableRow>
+</TableLayout>
+
+
+
